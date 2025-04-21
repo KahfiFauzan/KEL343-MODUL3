@@ -25,10 +25,7 @@ class LoginTest extends DuskTestCase
                     ->type('password', '12345678')
                     ->press('')
                     ->press('')
-                    ->press('LOG IN')
-
-
-                    ;
+                    ->press('LOG IN');
         });
     }
 }
